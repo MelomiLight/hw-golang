@@ -30,7 +30,7 @@ func myFunction() error {
     case res := <-chan2:
         fmt.Println("Response from chan2", res, time.Since(start))
     case <-time.After(5 * time.Second): // Ожидаем результаты не более 5 секунд
-        return fmt.Errorf("Deadlock detected")
+        return fmt.Errorf("Deadlock detected ")
     }
 
     fmt.Println("myFunction() stopped", time.Since(start))
