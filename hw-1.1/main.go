@@ -8,7 +8,7 @@ func twoSum(nums []int, target int) []int {
 
 	// Time: O(n)
 	for idx, num := range nums {
-		// Time: O(1)
+		// Time: O(1 )
 		if pos, ok := s[target-num]; ok {
 			return []int{pos, idx}
 		}
