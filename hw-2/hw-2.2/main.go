@@ -55,6 +55,6 @@ func main() {
     mergedList := mergeTwoLists(list1, list2)
 
   
-    fmt.Println("Merged List: ")
+    fmt.Println("Merged List:")
     printLinkedList(mergedList)
 }
